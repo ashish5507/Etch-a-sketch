@@ -1,0 +1,104 @@
+body{
+    background-color: aliceblue;
+}
+.btn{
+    height : 30px;
+    width: 30px;
+}
+.v{
+    background-color: violet;
+}
+.i{
+    background-color: indigo;
+}
+.b{
+    background-color: blue;
+}
+.g{
+    background-color: green;
+}
+.y{
+    background-color: yellow;
+}
+.o{
+    background-color: orange;
+}
+.r{
+    background-color: red;
+}
+.c{
+    background-color: cyan;
+}
+#colors{
+    background-color: rgb(197, 197, 197);
+    padding: 10px;
+    border: solid black 2px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    width: 70px;
+    height: 170px;
+    margin-left: 500px;
+
+}
+h1{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#takeinput{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+}
+
+#main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#grid{
+    background-color: white;
+    display: flex;
+    flex-wrap:wrap;
+    height: 900px;
+    width: 900px;
+    margin-right: 700px;
+    margin-top: 60px;
+    border: 5px solid red;
+}
+
+#takeinput button{
+    padding: 5px;
+    border-radius: 8px;
+    background-color: aquamarine;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+label{
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+input{
+    height:25px;
+    width: 200px;
+}
+
+#options{
+    margin-top: 20px;
+    display: flex;;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin-right: -50px;
+}
+#random,
+#rgb{
+    width: 80px;
+    padding: 10px;
+    border: 1px solid greenyellow;
+    border-radius: 5px;
+}
