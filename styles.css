@@ -62,8 +62,8 @@ h1{
     background-color: white;
     display: flex;
     flex-wrap:wrap;
-    height: 900px;
-    width: 900px;
+    width: min(90vw, 900px);
+    height: min(90vw, 900px);
     margin-right: 700px;
     margin-top: 60px;
     border: 5px solid red;
